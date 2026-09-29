@@ -45,6 +45,7 @@ This project essentially helped me fully understand how email clients organise d
 ## How It's Structured
 
 I kept the structure simple, making it easier to follow:
+'''
 Outlook_Simulator/
 │
 ├─ Mail.py             # Base email class
@@ -52,5 +53,6 @@ Outlook_Simulator/
 ├─ Personal.py         # Personal email type (analytics)
 ├─ MailboxAgent.py     # Mailbox controller (searching, tagging, and parsing)
 └─ Interpreter.py      # Command-line interface
+'''
 
 Each file has its own job, and with all of them the simulator will run!
