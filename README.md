@@ -82,7 +82,7 @@ mv 2 work              # Move email with ID 2 with "work" tag
 end                    # Exit the simulator
 ```
 
-Just gives you a quick feel for how the Mailbox system works.
+This just gives you a quick feel for how the Mailbox system works.
 
 ---
 
