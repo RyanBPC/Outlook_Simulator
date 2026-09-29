@@ -73,7 +73,7 @@ After that, you can use commands like:
 ```
 lst                    # List all the emails
 get 3                  # Open email with ID 3
-flt email5@gre.ac.uk   # Filter emails by sender
+flt email10@gre.ac.uk   # Filter emails by sender
 fnd 12/5/2025          # Find emails by date
 add sender receiver date subject tag %% message body here
 del 7                  # Delete email with ID 7
@@ -83,6 +83,17 @@ end                    # Exit the simulator
 ```
 
 Just gives you a quick feel for how the Mailbox system works.
+
+---
+
+## Program Images
+
+Running the commands ```mba > get 1```, ```mba > flt email10@gre.ac.uk```, and ```mba > end``` after:
+
+<img width="1150" height="632" alt="First Printed" src="https://github.com/user-attachments/assets/ce29324e-2bda-4ba1-a90f-359cadcd6494" />
+<img width="751" height="882" alt="Second Printed" src="https://github.com/user-attachments/assets/54baa020-c99b-4c79-8ecb-b8e45bafd0c2" />
+
+Little example of how the code is executed (I couldn't make it into a video).
 
 ---
 
