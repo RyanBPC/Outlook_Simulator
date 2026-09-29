@@ -1,2 +1,33 @@
-# Outlook_Simulator
-A python-based Outlook Simulator project simulating core Outlook functionality, including mailbox parsing, command-line interaction, custom-made email classes, encryption log, and personal message analytics.
+# Outlook Simulator (Python)
+
+This is an Outlook Simulator I built because I wanted to know how email systems truly worked behind the scenes. Instead of doing some generic project, I wanted to develop something that felt like an achievement and actually let me practice building a system rather than a single script.
+
+It runs in the command-line, generates a mailbox, and allows you to interact with emails the way you would in a simplified version of Outlook. I also added some custom email types, a basic encryption feature, and some little analytics for personal messages.
+
+---
+
+## What This Project Does
+
+- Creates a fake mailbox that's filled with generated emails
+- Lets you interact with the mailbox through a simple command-line prompt
+- Supports several types of emails:
+  - **Normal Mail**
+  - **Confidential Mail** (hidden body and some custom encryption)
+  - **Personal Mail** (extra stats like a word count)
+
+- This project lets you:
+  - List emails
+  - Open an email
+  - Filter by sender
+  - Search by date
+  - Mark emails as flagged or read
+  - Move emails to different tags
+  - Soft-delete emails (moving them to the "bin")
+  - Add your own emails directly through the command-line interface
+
+A tiny, text-based outlook I built all from scratch.
+
+## Why I Built It
+
+I wanted a proper project that showcases I can:
+- Work with several Python files and classes
