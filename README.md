@@ -56,3 +56,13 @@ Outlook_Simulator/
 ```
 
 Each file has its own job, and with all of them the simulator will run!
+
+---
+
+##  How To Use It
+
+1. Clone the repo
+2. Open it in your IDE (I used PyCharm)
+3. Run ```Interpreter.py```
+4. You'll get a prompt like this:
+```mba >```
