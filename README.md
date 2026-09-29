@@ -12,7 +12,7 @@ It runs in the command-line, generates a mailbox, and allows you to interact wit
 - Lets you interact with the mailbox through a simple command-line prompt
 - Supports several types of emails:
   - **Normal Mail**
-  - **Confidential Mail** (hidden body and some custom encryption)
+  - **Confidential Mail** (hidden body and custom encryption)
   - **Personal Mail** (extra stats like a word count)
 
 - This project lets you:
@@ -45,5 +45,12 @@ This project essentially helped me fully understand how email clients organise d
 ## How It's Structured
 
 I kept the structure simple, making it easier to follow:
+Outlook_Simulator/
+│
+├─ Mail.py             # Base email class
+├─ Confidential.py     # Confidential email type (hidden body and custom encryption)
+├─ Personal.py         # Personal email type (analytics)
+├─ MailboxAgent.py     # Mailbox controller (searching, tagging, and parsing)
+└─ Interpreter.py      # Command-line interface
 
-Ä³ÃÀ
+Each file has its own job, and with all of them the simulator will run!
