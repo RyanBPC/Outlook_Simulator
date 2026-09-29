@@ -65,4 +65,39 @@ Each file has its own job, and with all of them the simulator will run!
 2. Open it in your IDE (I used PyCharm)
 3. Run ```Interpreter.py```
 4. You'll get a prompt like this:
-```mba >```
+```
+mba>
+```
+
+After that, you can use commands like:
+```
+lst                    # List all the emails
+get 3                  # Open email with ID 3
+flt email5@gre.ac.uk   # Filter emails by sender
+fnd 12/5/2025          # Find emails by date
+add sender receiver date subject tag %% message body here
+del 7                  # Delete email with ID 7
+mrkr 4                 # Mark email with ID 4 as read
+mv 2 work              # Move email with ID 2 with "work" tag
+end                    # Exit the simulator
+```
+
+Just gives you a quick feel for how the Mailbox system works.
+
+---
+
+## Things I Might Add Later
+
+- A small GUI (PyQT or Tkinter)
+- Further developed encryption
+- Reply/ forward functionality
+- Logging or exporting emails
+- Saving the mailbox data between sessions
+
+I could definitely expand this project, but it was built at the current learning level I was ongoing.
+
+---
+
+## Final Thoughts
+
+Overall, this project was genuinely really fun to build and definitely helped me comprehend how email clients work behind the scenes. If you're a developer or recruiter checking out my work, thanks for taking your time to observe my program. If you have any feedback, improvement ideas, and internship opportunities, I'm always open to being even greater.
