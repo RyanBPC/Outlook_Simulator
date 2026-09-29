@@ -88,10 +88,10 @@ Just gives you a quick feel for how the Mailbox system works.
 
 ## Program Images
 
-Running the commands ```mba > get 1```, ```mba > flt email10@gre.ac.uk```, and ```mba > end``` after:
+Running the commands ```mba > get 1```, ```mba > flt email10@gre.ac.uk```, and ```mba > end```:
 
-<img width="1150" height="632" alt="First Printed" src="https://github.com/user-attachments/assets/ce29324e-2bda-4ba1-a90f-359cadcd6494" />
-<img width="751" height="882" alt="Second Printed" src="https://github.com/user-attachments/assets/54baa020-c99b-4c79-8ecb-b8e45bafd0c2" />
+<img width="1747" height="902" alt="Print 1" src="https://github.com/user-attachments/assets/b8e88f35-48d9-4c67-ba05-66fe50ae7cc4" />
+<img width="1740" height="627" alt="Print 2" src="https://github.com/user-attachments/assets/1ff3a714-0828-42bc-addb-05f8a5b856f2" />
 
 Little example of how the code is executed (I couldn't make it into a video).
 
