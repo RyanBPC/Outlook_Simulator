@@ -27,7 +27,19 @@ It runs in the command-line, generates a mailbox, and allows you to interact wit
 
 A tiny, text-based outlook I built all from scratch.
 
+---
+
 ## Why I Built It
 
 I wanted a proper project that showcases I can:
 - Work with several Python files and classes
+- Build something that feels like a proper application
+- Parse data and turn it into structured objects
+- Design a system with different components talking to each other
+- Add my own ideas like encryption and analysis
+
+This project essentially helped me fully understand how email clients organise data, how command interpreters work, and how to design a program that's easy to extend/ modify later.
+
+---
+
+## How It's Structured
