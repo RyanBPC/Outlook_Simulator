@@ -43,3 +43,7 @@ This project essentially helped me fully understand how email clients organise d
 ---
 
 ## How It's Structured
+
+I kept the structure simple, making it easier to follow:
+
+Ä³ÃÀ
